@@ -27,10 +27,10 @@ public static class EndpointRouterBuilderExtensions
         var logger = endpointRouteBuilder.ServiceProvider.GetService<ILogger<AssemblyInfo>>();
         var assemblyInfo = endpointRouteBuilder.ServiceProvider.GetRequiredService<IAssemblyInfo>();
         var applicationLifetime = endpointRouteBuilder.ServiceProvider.GetService<IHostApplicationLifetime>();
-        var server = endpointRouteBuilder.ServiceProvider.GetService<IServer>();
 
         applicationLifetime?.ApplicationStarted.Register(() =>
         {
+            var server = endpointRouteBuilder.ServiceProvider.GetService<IServer>();
             var serverAddressesFeature = server?.Features.Get<IServerAddressesFeature>();
             var addresses = serverAddressesFeature?.Addresses;
 

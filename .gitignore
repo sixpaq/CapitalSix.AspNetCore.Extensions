@@ -7,3 +7,5 @@ riderModule.iml
 **/logs/
 .idea/
 **/*.nupkg
+
+.vs/
