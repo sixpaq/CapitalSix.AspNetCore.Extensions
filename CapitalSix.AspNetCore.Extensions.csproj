@@ -1,10 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <PackageVersion>9.0.0</PackageVersion>
+    <PackageVersion>10.0.0</PackageVersion>
     <PackageId>CapitalSix.AspNetCore.Extensions</PackageId>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <TargetFrameworks>net6.0;net7.0;net8.0;net9.0</TargetFrameworks>
+    <TargetFrameworks>net6.0;net7.0;net8.0;net9.0;net10.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Title>A collection of reusable AspNetCore extensions.</Title>
     <RepositoryUrl>https://github.com/sixpaq/capitalsix.aspnetcore.extensions</RepositoryUrl>
@@ -13,7 +13,7 @@
     <Company>CapitalSix</Company>
     <Nullable>enable</Nullable>
     <ProductVersion>9.0.0.0</ProductVersion>
-    <FileVersion>9.0.0.0</FileVersion>
+    <FileVersion>10.0.0.0</FileVersion>
     <RootNamespace>CapitalSix.AspNetCore.Extensions</RootNamespace>
     <PackageLicense>none</PackageLicense>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
